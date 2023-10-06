@@ -1,0 +1,83 @@
+/* -------------------- SeasonCollectionBlock -------------------- */
+.season__collection__card__link {
+    color: black;
+    text-decoration: none;
+}
+
+.season__collection__table__container {
+    margin: 45px 20px 40px 20px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.season__collection__card {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: #fffcf9;;
+    font-family: "JetBrains Mono Thin", serif;
+}
+
+.season__collection__card__mid {
+    margin: 0 12px;
+}
+
+.season__collection__card__img{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.season__collection__card__description {
+    padding: 0 0 0 10px;
+}
+
+.season__collection__card__price {
+    margin-top: 8px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.season__collection__card__title,
+.season__collection__card__product__description {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.season__collection__card__rating__container {
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+}
+
+.season__collection__card__rating__star {
+    margin-top: 3px;
+    width: 25px;
+    height: 25px;
+}
+
+.season__collection__card__rating__star__img {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.season__collection__card__total__rating__container {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+.season__collection__card__total__rating {
+    margin: 0;
+    font-size: 22px;
+}

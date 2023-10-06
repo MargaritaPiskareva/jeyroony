@@ -1,0 +1,20 @@
+/* -------------------- MainBrandExampleBlock -------------------- */
+
+.main__brand__examples__container {
+    margin: 50px 20px;
+    height: 700px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.main__brand__examples {
+    flex: 1;
+    height: 700px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0,.35) 0 5px 15px;
+}
+
+.main__brand__mid__example {
+    margin: 0 20px 0 20px;
+}

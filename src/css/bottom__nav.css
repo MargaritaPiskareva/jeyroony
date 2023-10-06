@@ -1,0 +1,75 @@
+/* -------------------- BottomNavBlock -------------------- */
+
+.bottom__nav {
+    padding-left: 430px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    background-color: #604E3E;
+    justify-content: center;
+}
+
+.bottom__nav__section__container {
+    width: 220px;
+    border-left: 2px solid #4b3a33;
+}
+
+.bottom__nav__last__section__container {
+    border-right: 3px solid #4b3a33;
+}
+
+.bottom__nav__dropdown__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom__nav__section {
+    font-size: 20px;
+    font-family: "JetBrains Mono Thin", serif;
+    text-align: center;
+}
+
+.bottom__nav__section:hover {
+    background-color: #866f5e;
+}
+
+.bottom__nav__section__link {
+    color: #efc865;
+    text-decoration: none;
+}
+
+.bottom__nav__section__title {
+    margin: 0;
+    padding: 10px 0 7px 0;
+    font-size: 20px;
+    color: #efc865;
+    cursor: pointer;
+}
+
+.bottom__nav__section__title:hover {
+    color: #ffe29d;
+}
+
+.bottom__nav__section__list {
+    margin: 0;
+}
+
+.bottom__nav__collections__list__link {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom__nav__collections__list__li {
+    padding: 10px 0 0 0;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #866f5e;
+    font-size: 16px;
+    font-family: "JetBrains Mono Thin", serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom__nav__collections__list__li:hover {
+    color: #FFD587;
+}

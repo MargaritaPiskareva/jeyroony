@@ -1,0 +1,50 @@
+/* -------------------- MainLogoBlock -------------------- */
+
+.main__logo__container {
+    margin: 30px auto 0 auto;
+    width: 500px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__logo, .main__tagline__container {
+    margin: auto;
+}
+
+.main__logo {
+    width: 400px;
+    height: 150px;
+    display: flex;
+}
+
+.main__logo__img {
+    margin-top: 25px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+.main__logo__brand__name {
+    margin-left: 5px;
+    font-size: 90px;
+    font-family: 'ImperialScript', serif;
+    color: #ffda94;
+    text-shadow: 1px -1px 0 rgba(69, 51, 23, 10);
+    text-decoration: none;
+}
+
+.main__logo__brand__name:hover {
+    color: #FFE2C9;
+    text-shadow: 1px -1px 0 rgba(255, 165, 0, 10);
+}
+
+.main__tagline {
+    margin: 2px 0 0 150px;
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+    font-family: "JetBrains Mono Thin", serif;
+    color: #D8845F;
+    text-shadow: 0 0 0 rgba(109, 71, 55, 10);
+}

@@ -1,0 +1,77 @@
+/* -------------------- RegistrationBlock -------------------- */
+
+.main__centralization__block {
+    display: flex;
+    justify-content: center;
+}
+
+.register__form__container {
+    margin: 50px 0 50px 0;
+    width: 540px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #604E3E;
+    box-shadow: rgba(0, 0, 0,.35) 0 5px 15px;
+    font-family: "JetBrains Mono Thin", serif;
+}
+
+.register__top__part {
+    margin-bottom: 20px;
+    height: 120px;
+    display: flex;
+    border-radius: 15px 15px 0 0;
+    background-color: #352B22;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__brand__name {
+    font-size: 70px;
+    font-family: 'ImperialScript', serif;
+    color: #D9B572;
+    text-shadow: 1px -1px 0 rgba(69, 51, 23, 10);
+    text-decoration: none;
+}
+
+.register__brand__name:hover {
+    color: #FFD587;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__form__title {
+    color: #D9D9D9;
+    text-shadow: 1px -1px 0 rgba(69, 51, 23, 10);
+}
+
+.register__form__input, .register__form__button {
+    width: 340px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "JetBrains Mono Thin", serif;
+}
+
+.register__form__input {
+    margin-top: 15px;
+    padding-left: 20px;
+    border: 3px solid #352B22;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.register__form__button {
+    margin-top: 40px;
+    border: 3px solid #b66947;
+    border-radius: 10px;
+    background-color: #D8845F;
+    color: white;
+}
+
+.register__form__button:hover {
+    background-color: #FF9B70;
+    cursor: pointer;
+}

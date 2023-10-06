@@ -1,0 +1,48 @@
+/* -------------------- PersonalAccountBlock -------------------- */
+
+.dropdown__menu {
+    margin: 15px 0 0 120px;
+    padding: 0;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid #D9B572;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.dropdown__header {
+    margin-top: 8px;
+    height: 30px;
+    background-color: #352B22;
+    font-size: 20px;
+    font-family: "JetBrains Mono Thin", serif;
+    color: #D9B572;
+    cursor: pointer;
+}
+
+.dropdown__header:hover {
+    color: #FFD587;
+}
+
+.dropdown__list {
+    margin-top: 3px;
+    padding: 0;
+    border: 1px solid #D9B572;
+    border-top: none;
+    background-color: #725e4e;
+    font-family: "JetBrains Mono Thin", serif;
+    color: #D9B572;
+    list-style: none;
+}
+
+.dropdown__item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dropdown__item:hover {
+    background-color: #9d8a7c;
+    color: #fde2b6;
+}

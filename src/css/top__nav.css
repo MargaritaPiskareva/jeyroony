@@ -1,0 +1,92 @@
+/* -------------------- TopNavBlock -------------------- */
+
+.top__nav {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #352B22;
+}
+
+.top__nav__section {
+    width: 450px;
+    display: flex;
+}
+
+.top__nav__logo__img {
+    margin: 18px 0 0 140px;
+    width: 35px;
+}
+
+.top__nav__brand__name {
+    margin: 8px 0 0 3px;
+    font-size: 40px;
+    font-family: 'ImperialScript', serif;
+    color: #D9B572;
+    text-shadow: 1px -1px 0 rgba(69, 51, 23, 10);
+    text-decoration: none;
+}
+
+.top__nav__brand__name:hover {
+    color: #f5dcab;
+}
+
+.top__nav__search__container {
+    margin: 0 10px 0 10px;
+}
+
+.top__nav__search__input, .top__nav__search__button, .login__button, .sign__up__button {
+    margin-top: 15px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "JetBrains Mono Thin", serif;
+}
+
+.top__nav__search__input {
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+.top__nav__search__button, .login__button, .sign__up__button {
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.top__nav__search__button {
+    margin-left: 10px;
+    width: 80px;
+    border: 2px solid #af603f;
+    background-color: #D8845F;
+    font-size: 18px;
+}
+
+.top__nav__search__button:hover {
+    border: 2px solid #D8845F;
+    background-color: #FF9B70;
+}
+
+.login__button {
+    margin-left: 78px;
+    width: 100px;
+    border: 2px solid #454f3d;
+    background-color: #352B22;
+}
+
+.login__button:hover {
+    background-color: #556349;
+}
+
+.sign__up__button {
+    margin-left: 10px;
+    width: 180px;
+    border: 2px solid #af603f;
+    background-color: #D8845F;
+}
+
+.sign__up__button:hover {
+    border: 2px solid #D8845F;
+    background-color: #FF9B70;
+}
